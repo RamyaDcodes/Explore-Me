@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    background-color: hsl(0, 0%, 70%);
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    margin-left: 45%;
+    padding-top: 20px;
+}
+input{
+    margin-left: 450px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 1em;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 1em;
+    background-color: white;
+    transition:background-color 1s ;
+}
+button:hover{
+    background-color: hsl(0, 2%, 33%);
+}
+#diceimage img{
+    width: 150px;
+    margin: 5px;
+}

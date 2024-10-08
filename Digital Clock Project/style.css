@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* overflow: hidden;*/
+} 
+
+#image {
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    filter: blur(10px); /* Apply the blur effect directly to the image */
+    z-index: 1;
+}
+
+#clock {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+    z-index: 2;
+    color: black;
+    font-size: 3rem; /* Add a font size to make the clock text more visible */
+    font-weight: bold;
+}
