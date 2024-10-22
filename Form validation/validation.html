@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="check.css" rel="stylesheet">
+    <script defer src="value.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="javascript:void(0);">
+            <h1>Validation Form</h1>
+            <div class="input-field">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-field">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-field">
+                <label for="mess">Message</label>
+                <textarea id="mess"></textarea>
+                <div class="error"></div>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

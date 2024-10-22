@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    color: hsl(0, 0%, 20%);
+}
+.choices{
+    margin-bottom: 30px;
+}
+.choices button{
+    font-size: 7.5rem;
+    min-width:160px;
+    border-radius: 250px;
+    background-color: hsl(209, 77%, 52%);
+    cursor: pointer;
+    border: none;
+    transition:background-color 0.5s ease;
+}
+.choices button:hover{
+    background-color:hsl(209, 77%, 70%) ;
+}
+#playerdisplay,#computerdisplay{
+    font-size: 2rem;
+    padding: 3px;
+}
+#resultdisplay{
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.greentext{
+    color: green;
+}
+.redtext{
+    color: red;
+}
