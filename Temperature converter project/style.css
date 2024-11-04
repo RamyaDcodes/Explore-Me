@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: aqua;
+}
+form{
+    text-align: center;
+    max-width: 400px;
+    background-color: hsl(208, 100%, 79%);
+    margin-left: 400px;
+}
+#textbox{
+    margin: 5px;
+}
+#tofahrenheit, #toCelsius {
+    margin: 5px;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+}
